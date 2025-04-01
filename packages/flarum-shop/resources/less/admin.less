@@ -1,0 +1,137 @@
+.product-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.product-item h3 {
+    font-size: 16px;
+}
+
+.product-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+.ShopSettingsPage {
+  .Form-group {
+    margin-bottom: 20px;
+  }
+
+  .FormControl {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .helpText {
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
+
+.ProductList {
+  .ProductRow {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+    &-image {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    &-details {
+      flex: 1;
+    }
+
+    &-title {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    &-price {
+      color: #4a9eff;
+    }
+
+    &-stock {
+      color: #666;
+    }
+
+    &-actions {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+.OrderList {
+  .OrderRow {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+
+    &-id {
+      font-weight: bold;
+      margin-right: 15px;
+    }
+
+    &-user {
+      flex: 1;
+    }
+
+    &-total {
+      color: #4a9eff;
+      margin-right: 15px;
+    }
+
+    &-status {
+      padding: 3px 8px;
+      border-radius: 3px;
+      font-size: 12px;
+
+      &.pending {
+        background: #fff3cd;
+        color: #856404;
+      }
+
+      &.processing {
+        background: #cce5ff;
+        color: #004085;
+      }
+
+      &.completed {
+        background: #d4edda;
+        color: #155724;
+      }
+
+      &.cancelled {
+        background: #f8d7da;
+        color: #721c24;
+      }
+    }
+
+    &-actions {
+      margin-left: 15px;
+    }
+  }
+}

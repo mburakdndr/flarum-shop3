@@ -1,0 +1,8 @@
+flarum:
+  shop:
+    product:
+      name: "Ürün"
+      description: "Açıklama"
+      price: "Fiyat"
+      add_to_cart: "Sepete Ekle"
+      total: "Toplam"

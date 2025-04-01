@@ -1,0 +1,33 @@
+{
+    "name": "mburakdndr/flarum-shop",
+    "description": "A comprehensive shop/marketplace extension for Flarum",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "shop", "e-commerce"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "M. Burak Dündar",
+            "email": "burak@codetify.com.tr"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0.0",
+        "flarum/tags": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flarum\\Shop\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Shop",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-shopping-cart",
+                "backgroundColor": "#684BA6",
+                "color": "#fff"
+            }
+        }
+    }
+} 

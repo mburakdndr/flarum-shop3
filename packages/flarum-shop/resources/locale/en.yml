@@ -1,0 +1,48 @@
+flarum:
+  shop:
+    product:
+      name: "Product"
+      description: "Description"
+      price: "Price"
+      add_to_cart: "Add to Cart"
+      total: "Total"
+
+flarum-shop:
+  forum:
+    nav:
+      shop_button: Shop
+    shop:
+      title: Shop
+      add_product_button: Add Product
+      no_products: No products available
+    cart:
+      title: Shopping Cart
+      must_be_logged_in: You must be logged in to view your cart
+      total: Total
+      checkout_button: Checkout
+      empty: Your cart is empty
+    orders:
+      title: My Orders
+      must_be_logged_in: You must be logged in to view your orders
+      no_orders: You haven't placed any orders yet
+      status:
+        pending: Pending
+        processing: Processing
+        completed: Completed
+        cancelled: Cancelled
+    product:
+      add_to_cart: Add to Cart
+      out_of_stock: Out of Stock
+      price: Price
+      stock: Stock
+      description: Description
+      seller: Seller
+
+admin:
+  settings:
+    title: Shop Settings
+    currency: Currency
+    stripe_public_key: Stripe Public Key
+    stripe_secret_key: Stripe Secret Key
+    paypal_client_id: PayPal Client ID
+    paypal_secret: PayPal Secret

@@ -1,0 +1,38 @@
+flarum-shop:
+  forum:
+    nav:
+      shop_button: Mağaza
+    shop:
+      title: Mağaza
+      add_product_button: Ürün Ekle
+      no_products: Henüz ürün bulunmuyor
+    cart:
+      title: Alışveriş Sepeti
+      must_be_logged_in: Sepetinizi görüntülemek için giriş yapmalısınız
+      total: Toplam
+      checkout_button: Ödeme Yap
+      empty: Sepetiniz boş
+    orders:
+      title: Siparişlerim
+      must_be_logged_in: Siparişlerinizi görüntülemek için giriş yapmalısınız
+      no_orders: Henüz sipariş vermediniz
+      status:
+        pending: Beklemede
+        processing: İşleniyor
+        completed: Tamamlandı
+        cancelled: İptal Edildi
+    product:
+      add_to_cart: Sepete Ekle
+      out_of_stock: Stokta Yok
+      price: Fiyat
+      stock: Stok
+      description: Açıklama
+      seller: Satıcı
+  admin:
+    settings:
+      title: Mağaza Ayarları
+      currency: Para Birimi
+      stripe_public_key: Stripe Genel Anahtarı
+      stripe_secret_key: Stripe Gizli Anahtarı
+      paypal_client_id: PayPal İstemci ID
+      paypal_secret: PayPal Gizli Anahtarı 
